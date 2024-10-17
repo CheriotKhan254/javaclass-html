@@ -1,13 +1,8 @@
 
-//get the button element
+const javaclass=document.getElementById('colorButton');
+//add event for the button click
 
-const javaclass:HTMLElement=Document.getElementById(elementId:'colorButton');
-//add event listeners
-
-
-
-
-javaclass.addEventListener(type:'click',listener:() :void=>{
-    //change the color of the button
-    javaclass.style.backgroundColor=javaclass.style.backgroundColor==='red'?'#4CAF50':'red';
+javaclass.addEventListener('click',listener:()=>{
+    //change color of the button
+    javaclass.style.backgroundColor=javaclass.style.backgroundColor==='blue '?'#4CAF50':'blue';
 })
